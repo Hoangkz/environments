@@ -30,7 +30,7 @@ app.set('views',path.join(__dirname, 'resources','views'));
 
     // khởi tạo tuyến đường
 const route = require('./routes');
-const { homedir } = require('os');
+// const { homedir } = require('os');
 route(app);
 
 app.listen(port, () => {
